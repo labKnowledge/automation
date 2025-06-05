@@ -1,0 +1,347 @@
+[
+  {
+  " Vibrant Pop": {
+    "line_color": "#ff6b9d",
+    "word_color": "#00f5ff",
+    "outline_color": "#ffffff",
+    "all_caps": true,
+    "max_words_per_line": 6,
+    "position": "bottom_center",
+    "alignment": "center",
+    "font_family": "Arial Black",
+    "font_size": 32,
+    "bold": true,
+    "italic": false,
+    "style": "karaoke",
+    "outline_width": 4,
+    "shadow_offset": 0,
+    "spacing": 8
+}
+
+}, 
+  {
+"Cinematic Noir": {
+    "line_color": "#1a1a1a",
+    "word_color": "#f0f0f0",
+    "outline_color": "#000000",
+    "all_caps": false,
+    "max_words_per_line": 8,
+    "position": "bottom_center",
+    "alignment": "center",
+    "font_family": "Liberation Serif",
+    "font_size": 28,
+    "bold": true,
+    "italic": true,
+    "style": "highlight",
+    "outline_width": 3,
+    "shadow_offset": 4,
+    "angle": -2
+}
+  },
+{
+  "Elegant Serif" : {
+    "line_color": "#2c2c2c",
+    "word_color": "#d4af37",
+    "outline_color": "#8b4513",
+    "all_caps": false,
+    "max_words_per_line": 12,
+    "position": "bottom_left",
+    "alignment": "left",
+    "font_family": "Libre Baskerville",
+    "font_size": 26,
+    "bold": false,
+    "italic": true,
+    "style": "classic",
+    "outline_width": 2,
+    "shadow_offset": 3,
+    "angle": 1
+}
+},
+  {
+    "Gaming Style": {
+    "line_color": "#0a0a0a",
+    "word_color": "#00ff41",
+    "outline_color": "#001100",
+    "all_caps": true,
+    "max_words_per_line": 7,
+    "position": "middle_center",
+    "alignment": "center",
+    "font_family": "Liberation Sans",
+    "font_size": 24,
+    "bold": true,
+    "italic": false,
+    "underline": true,
+    "style": "word_by_word",
+    "outline_width": 1,
+    "shadow_offset": 0,
+    "spacing": 4
+}
+  },
+
+
+
+
+
+  # Creative Caption Styles (Updated with Available Fonts)
+
+## 🎬 Cinematic Noir
+```json
+{
+    "line_color": "#1a1a1a",
+    "word_color": "#f0f0f0",
+    "outline_color": "#000000",
+    "all_caps": false,
+    "max_words_per_line": 8,
+    "position": "bottom_center",
+    "alignment": "center",
+    "font_family": "Liberation Serif",
+    "font_size": 28,
+    "bold": true,
+    "italic": true,
+    "style": "highlight",
+    "outline_width": 3,
+    "shadow_offset": 4,
+    "angle": -2
+}
+```
+
+## 🌈 Vibrant Pop
+```json
+{
+    "line_color": "#ff6b9d",
+    "word_color": "#00f5ff",
+    "outline_color": "#ffffff",
+    "all_caps": true,
+    "max_words_per_line": 6,
+    "position": "top_center",
+    "alignment": "center",
+    "font_family": "Arial Black",
+    "font_size": 32,
+    "bold": true,
+    "italic": false,
+    "style": "karaoke",
+    "outline_width": 4,
+    "shadow_offset": 0,
+    "spacing": 8
+}
+```
+
+## 🏛️ Elegant Serif
+```json
+{
+    "line_color": "#2c2c2c",
+    "word_color": "#d4af37",
+    "outline_color": "#8b4513",
+    "all_caps": false,
+    "max_words_per_line": 12,
+    "position": "bottom_left",
+    "alignment": "left",
+    "font_family": "Libre Baskerville",
+    "font_size": 26,
+    "bold": false,
+    "italic": true,
+    "style": "classic",
+    "outline_width": 2,
+    "shadow_offset": 3,
+    "angle": 1
+}
+```
+
+## 🎮 Gaming Style
+```json
+{
+    "line_color": "#0a0a0a",
+    "word_color": "#00ff41",
+    "outline_color": "#001100",
+    "all_caps": true,
+    "max_words_per_line": 7,
+    "position": "middle_center",
+    "alignment": "center",
+    "font_family": "Liberation Sans",
+    "font_size": 24,
+    "bold": true,
+    "italic": false,
+    "underline": true,
+    "style": "word_by_word",
+    "outline_width": 1,
+    "shadow_offset": 0,
+    "spacing": 4
+}
+```
+
+## 🌸 Soft Pastel
+```json
+{
+    "line_color": "#ffe4e1",
+    "word_color": "#ff69b4",
+    "outline_color": "#dda0dd",
+    "all_caps": false,
+    "max_words_per_line": 9,
+    "position": "top_right",
+    "alignment": "right",
+    "font_family": "Nunito",
+    "font_size": 22,
+    "bold": false,
+    "italic": true,
+    "style": "underline",
+    "outline_width": 2,
+    "shadow_offset": 1,
+    "angle": -1,
+    "spacing": 6
+}
+```
+
+## ⚡ Electric Neon
+```json
+{
+    "line_color": "#000000",
+    "word_color": "#ff0080",
+    "outline_color": "#00ffff",
+    "all_caps": true,
+    "max_words_per_line": 5,
+    "position": "middle_left",
+    "alignment": "left",
+    "font_family": "Arial CE MT Black",
+    "font_size": 30,
+    "bold": true,
+    "italic": false,
+    "style": "karaoke",
+    "outline_width": 3,
+    "shadow_offset": 0,
+    "spacing": 10,
+    "angle": 3
+}
+```
+
+## 📚 Academic
+```json
+{
+    "line_color": "#f5f5dc",
+    "word_color": "#2f4f4f",
+    "outline_color": "#696969",
+    "all_caps": false,
+    "max_words_per_line": 14,
+    "position": "bottom_center",
+    "alignment": "center",
+    "font_family": "Noto Sans TC",
+    "font_size": 20,
+    "bold": false,
+    "italic": false,
+    "underline": true,
+    "style": "classic",
+    "outline_width": 1,
+    "shadow_offset": 2,
+    "spacing": 2
+}
+```
+
+## 🔥 Fiery Drama
+```json
+{
+    "line_color": "#8b0000",
+    "word_color": "#ffd700",
+    "outline_color": "#ff4500",
+    "all_caps": true,
+    "max_words_per_line": 6,
+    "position": "middle_center",
+    "alignment": "center",
+    "font_family": "Permanent Marker",
+    "font_size": 34,
+    "bold": true,
+    "italic": true,
+    "strikeout": false,
+    "style": "highlight",
+    "outline_width": 4,
+    "shadow_offset": 5,
+    "angle": -3,
+    "spacing": 8
+}
+```
+
+## 🌊 Ocean Breeze
+```json
+{
+    "line_color": "#e0f6ff",
+    "word_color": "#006994",
+    "outline_color": "#4682b4",
+    "all_caps": false,
+    "max_words_per_line": 11,
+    "position": "bottom_right",
+    "alignment": "right",
+    "font_family": "Pacifico",
+    "font_size": 25,
+    "bold": false,
+    "italic": true,
+    "style": "word_by_word",
+    "outline_width": 2,
+    "shadow_offset": 3,
+    "angle": 2,
+    "spacing": 5
+}
+```
+
+## 🎪 Circus Fun
+```json
+{
+    "line_color": "#ffff00",
+    "word_color": "#ff1493",
+    "outline_color": "#32cd32",
+    "all_caps": true,
+    "max_words_per_line": 4,
+    "position": "top_left",
+    "alignment": "left",
+    "font_family": "Comic Neue",
+    "font_size": 36,
+    "bold": true,
+    "italic": false,
+    "style": "karaoke",
+    "outline_width": 5,
+    "shadow_offset": 6,
+    "angle": 5,
+    "spacing": 12
+}
+```
+
+## 🎭 Bollywood Glam
+```json
+{
+    "line_color": "#4b0082",
+    "word_color": "#ffd700",
+    "outline_color": "#ff69b4",
+    "all_caps": false,
+    "max_words_per_line": 7,
+    "position": "middle_center",
+    "alignment": "center",
+    "font_family": "Shrikhand",
+    "font_size": 38,
+    "bold": true,
+    "italic": false,
+    "style": "karaoke",
+    "outline_width": 3,
+    "shadow_offset": 4,
+    "angle": 0,
+    "spacing": 10
+}
+```
+
+## 🌟 Minimalist Light
+```json
+{
+    "line_color": "#ffffff",
+    "word_color": "#333333",
+    "outline_color": "#cccccc",
+    "all_caps": false,
+    "max_words_per_line": 15,
+    "position": "bottom_center",
+    "alignment": "center",
+    "font_family": "Arial Light",
+    "font_size": 18,
+    "bold": false,
+    "italic": false,
+    "style": "classic",
+    "outline_width": 1,
+    "shadow_offset": 1,
+    "angle": 0,
+    "spacing": 3
+}
+]
