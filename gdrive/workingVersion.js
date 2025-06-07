@@ -99,7 +99,8 @@ function extractWithRegex(dataString) {
   
     
     // Extract domain
-    const domainMatch = dataString.match(/"((?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,})"/);
+    const domainMatch = dataString.match(/https?:\/\/(?:www\.)?([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
+
 
     if (domainMatch) {
         businessInfo.domain = domainMatch[1];
@@ -107,7 +108,10 @@ function extractWithRegex(dataString) {
     }
     
     // Extract address (look for address with street and zip)
-    const addressMatch = dataString.match(/"([^"]*\b\d{1,5}\s+[^"]*\b(?:St|Ave|Rd|Ln|Dr|Blvd)\b[^"]*\b\d{5}\b[^"]*)"/i);
+   const addressMatch = dataString.match(/([A-Za-z0-9.,&'\-\s]+?,\s*\d{1,6}\s+[A-Za-z0-9\s.]+?\s(?:St|Ave|Rd|Ln|Dr|Blvd|Way|Ct|Pl|Cir|Pkwy|Terrace|Loop|Square|Trl|Ste|Suite)[^,]*,\s*[A-Za-z\s]+,\s*[A-Z]{2}\s*\d{5})/);
+
+
+
 
     if (addressMatch) {
         businessInfo.address = addressMatch[1];
